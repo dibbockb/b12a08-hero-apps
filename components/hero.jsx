@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css";
+import appsList from "../data.json";
 
 const Hero = () => {
   return (
@@ -69,6 +70,50 @@ const Hero = () => {
             <p className="stat-value">132+</p>
             <p className="stat-comment">31 more will Launch</p>
           </div>
+        </div>
+      </div>
+
+      <div id="trending-container">
+        <div className="trending-texts">
+          <p className="trending-title">Trending Apps</p>
+          <p className="trending-subtitle">
+            Explore All Trending Apps on the Market developed by us
+          </p>
+        </div>
+
+        <div className="trending-gallery">
+          {appsList.slice(0, 8).map((app) => (
+            <div className="trending-card" key={app.id}>
+              <div className="card-img">
+                <img className="app-img" src={app.image} alt={app.title} />
+              </div>
+              <p className="card-title">
+                {app.title} : {app.companyName}
+              </p>
+              <div className="card-stats">
+                <div className="card-downloads">
+                  <img
+                    src="../src/assets/card-dl.svg"
+                    className="card-stat-icon"
+                    alt="downloads"
+                  />
+                  <p>
+                    {app.downloads >= 1000000
+                      ? `${(app.downloads / 1000000).toFixed(1)}M`
+                      : `${(app.downloads / 1000).toFixed(1)}K`}
+                  </p>
+                </div>
+                <div className="card-rating">
+                  <img
+                    src="../src/assets/card-rating.svg"
+                    className="card-stat-icon"
+                    alt="rating"
+                  />
+                  <p>{app.ratingAvg.toFixed(1)}</p>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </>

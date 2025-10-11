@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.postimg.cc/59BX2kBm/after-effects.png",
+    "title": "Adobe After Effects",
+    "companyName": "Adobe Inc.",
+    "id": 1,
+    "description": "Professional motion graphics and visual effects software.",
+    "size": 2200,
+    "reviews": 154000,
+    "ratingAvg": 4.6,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 4200 },
+      { "name": "2 star", "count": 6800 },
+      { "name": "3 star", "count": 11500 },
+      { "name": "4 star", "count": 38000 },
+      { "name": "5 star", "count": 93500 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/NfQ597Dd/blender.png",
+    "title": "Blender",
+    "companyName": "Blender Foundation",
+    "id": 2,
+    "description": "Free and open-source 3D creation suite for modeling, animation, and rendering.",
+    "size": 1900,
+    "reviews": 210000,
+    "ratingAvg": 4.8,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 3100 },
+      { "name": "2 star", "count": 5200 },
+      { "name": "3 star", "count": 8900 },
+      { "name": "4 star", "count": 41000 },
+      { "name": "5 star", "count": 156800 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/SQ6nxt6C/figma.png",
+    "title": "Figma",
+    "companyName": "Figma Inc.",
+    "id": 3,
+    "description": "Collaborative design tool for UI/UX designers and teams.",
+    "size": 260,
+    "reviews": 89000,
+    "ratingAvg": 4.7,
+    "downloads": 8500000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 6700 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 55200 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/fyfyqJzt/gemini.png",
+    "title": "Gemini",
+    "companyName": "Google",
+    "id": 4,
+    "description": "Google’s next-generation AI assistant and productivity companion.",
+    "size": 380,
+    "reviews": 43000,
+    "ratingAvg": 4.5,
+    "downloads": 4900000,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 4700 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 22100 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/7P35ZQ3f/google-cloud.png",
+    "title": "Google Cloud",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "Cloud computing, storage, and AI platform for developers and enterprises.",
+    "size": 800,
+    "reviews": 67000,
+    "ratingAvg": 4.4,
+    "downloads": 6500000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4400 },
+      { "name": "3 star", "count": 8900 },
+      { "name": "4 star", "count": 16000 },
+      { "name": "5 star", "count": 34700 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/pVfmL1fQ/illustrator.png",
+    "title": "Adobe Illustrator",
+    "companyName": "Adobe Inc.",
+    "id": 6,
+    "description": "Vector graphics and illustration software for creative professionals.",
+    "size": 1800,
+    "reviews": 98000,
+    "ratingAvg": 4.7,
+    "downloads": 11000000,
+    "ratings": [
+      { "name": "1 star", "count": 2400 },
+      { "name": "2 star", "count": 3800 },
+      { "name": "3 star", "count": 8700 },
+      { "name": "4 star", "count": 24000 },
+      { "name": "5 star", "count": 59100 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/xjvX1Fvg/lightroom.png",
+    "title": "Adobe Lightroom",
+    "companyName": "Adobe Inc.",
+    "id": 7,
+    "description": "Photo editing and organization software with advanced features.",
+    "size": 1200,
+    "reviews": 121000,
+    "ratingAvg": 4.8,
+    "downloads": 14000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 4700 },
+      { "name": "3 star", "count": 9500 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 73400 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/446YxF6Z/messenger.png",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 8,
+    "description": "Instant messaging app with voice and video call support.",
+    "size": 150,
+    "reviews": 2400000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 340000 },
+      { "name": "2 star", "count": 210000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 750000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/QNQFdnQ5/netflix.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 9,
+    "description": "Streaming platform for movies, series, and documentaries.",
+    "size": 120,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1300000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 7300000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/d3j3NLs6/netlify.png",
+    "title": "Netlify",
+    "companyName": "Netlify Inc.",
+    "id": 10,
+    "description": "Platform for web developers to build, deploy, and manage modern websites.",
+    "size": 210,
+    "reviews": 21000,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 14400 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/d3j3NLs9/paypal.png",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings Inc.",
+    "id": 11,
+    "description": "Secure online payment and money transfer service.",
+    "size": 230,
+    "reviews": 9500000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 480000 },
+      { "name": "2 star", "count": 390000 },
+      { "name": "3 star", "count": 730000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 6300000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/fyfyqJz1/pinterest.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "id": 12,
+    "description": "Visual discovery platform for ideas, inspiration, and creativity.",
+    "size": 140,
+    "reviews": 8700000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 350000 },
+      { "name": "2 star", "count": 280000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 5670000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/PrdPpzyw/premiere.png",
+    "title": "Adobe Premiere Pro",
+    "companyName": "Adobe Inc.",
+    "id": 13,
+    "description": "Professional video editing software for creators and filmmakers.",
+    "size": 2500,
+    "reviews": 135000,
+    "ratingAvg": 4.6,
+    "downloads": 9500000,
+    "ratings": [
+      { "name": "1 star", "count": 4100 },
+      { "name": "2 star", "count": 5500 },
+      { "name": "3 star", "count": 9500 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 86000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/nrGrSCFT/python.png",
+    "title": "Python",
+    "companyName": "Python Software Foundation",
+    "id": 14,
+    "description": "Powerful and versatile programming language used worldwide.",
+    "size": 30,
+    "reviews": 210000,
+    "ratingAvg": 4.9,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 196800 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/kMQ2ghQC/reddit.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 15,
+    "description": "Online community network where people share and discuss content.",
+    "size": 100,
+    "reviews": 2200000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 590000 },
+      { "name": "5 star", "count": 850000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/L535Qn9N/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 16,
+    "description": "Music streaming platform with millions of tracks and podcasts.",
+    "size": 160,
+    "reviews": 28000000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1400000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1700000 },
+      { "name": "4 star", "count": 3600000 },
+      { "name": "5 star", "count": 20000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/WzwzYhNK/whatsapp.png",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 17,
+    "description": "Free messaging and calling app with end-to-end encryption.",
+    "size": 120,
+    "reviews": 180000000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000000 },
+      { "name": "2 star", "count": 9000000 },
+      { "name": "3 star", "count": 21000000 },
+      { "name": "4 star", "count": 42000000 },
+      { "name": "5 star", "count": 93000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/zDCyGPC3/x.png",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "id": 18,
+    "description": "Platform for sharing short posts, media, and global conversations.",
+    "size": 100,
+    "reviews": 38000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4800000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 4900000 },
+      { "name": "4 star", "count": 7600000 },
+      { "name": "5 star", "count": 17700000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/fWcVRgcy/youtube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 19,
+    "description": "Video sharing and streaming platform for all kinds of content.",
+    "size": 160,
+    "reviews": 150000000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 17000000 },
+      { "name": "4 star", "count": 34000000 },
+      { "name": "5 star", "count": 79000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/PfWC5FWx/youtube-music.png",
+    "title": "YouTube Music",
+    "companyName": "Google LLC",
+    "id": 20,
+    "description": "Music streaming service integrated with YouTube’s massive catalog.",
+    "size": 150,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1300000 },
+      { "name": "4 star", "count": 2600000 },
+      { "name": "5 star", "count": 6500000 }
+    ]
+  }
+]
