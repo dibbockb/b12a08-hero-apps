@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./allapps.css";
+import { Link } from "react-router";
 import { NavLink } from "react-router";
 import dlico from "/icon-downloads.png";
 import ratingico from "/icon-ratings.png";
@@ -39,36 +40,42 @@ const All = () => {
         <div className="allapps-gallery">
           {filteredApps.length > 0 ? (
             filteredApps.map((app) => (
-              <div className="trending-card" key={app.id}>
-                <div className="card-img">
-                  <img className="app-img" src={app.image} alt={app.title} />
-                </div>
-                <p className="card-title">
-                  {app.title} : {app.companyName}
-                </p>
-                <div className="card-stats">
-                  <div className="card-downloads">
-                    <img
-                      src={dlico}
-                      className="card-stat-icon"
-                      alt="downloads"
-                    />
-                    <p>
-                      {app.downloads >= 1000000
-                        ? `${(app.downloads / 1000000).toFixed(1)}M`
-                        : `${(app.downloads / 1000).toFixed(1)}K`}
-                    </p>
+              <Link
+                to={`/app/${app.id}`}
+                key={app.id}
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <div className="trending-card">
+                  <div className="card-img">
+                    <img className="app-img" src={app.image} alt={app.title} />
                   </div>
-                  <div className="card-rating">
-                    <img
-                      src={ratingico}
-                      className="card-stat-icon"
-                      alt="rating"
-                    />
-                    <p>{app.ratingAvg.toFixed(1)}</p>
+                  <p className="card-title">
+                    {app.title} : {app.companyName}
+                  </p>
+                  <div className="card-stats">
+                    <div className="card-downloads">
+                      <img
+                        src={dlico}
+                        className="card-stat-icon"
+                        alt="downloads"
+                      />
+                      <p>
+                        {app.downloads >= 1000000
+                          ? `${(app.downloads / 1000000).toFixed(1)}M`
+                          : `${(app.downloads / 1000).toFixed(1)}K`}
+                      </p>
+                    </div>
+                    <div className="card-rating">
+                      <img
+                        src={ratingico}
+                        className="card-stat-icon"
+                        alt="rating"
+                      />
+                      <p>{app.ratingAvg.toFixed(1)}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))
           ) : (
             <div className="no-results">

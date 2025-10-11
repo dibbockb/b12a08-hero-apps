@@ -1,0 +1,118 @@
+#appinfo-container {
+  height: 102.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-info {
+  width: 90rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: auto;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.appinfo-img {
+  height: 21.875rem;
+  width: 21.875rem;
+}
+
+.app-stats {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 1.5625rem;
+}
+
+.appinfo-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.appinfo-title {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.appinfo-maker {
+  font-family: 400;
+  font-size: 1.2rem;
+}
+
+.hr-break {
+  width: 62.5rem;
+  color: rgba(128, 128, 128, 0.5);
+  margin-top: 20px;
+}
+
+.text-light {
+  color: grey;
+}
+
+.stat-text {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.stat-ico {
+  width: 25px;
+  height: 25px;
+}
+
+.appinfo-stat-value {
+  font-weight: 800;
+  font-size: 2rem;
+  color: black;
+  margin-top: -5px;
+}
+
+.btn-install {
+  width: 14.9375rem;
+  height: 3.25rem;
+  background-color: #00d390;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: transform 0.1s ease-in;
+  margin-top: 30px;
+}
+
+.btn-install:hover {
+  transform: scale(1.05);
+}
+
+.app-chart {
+  width: 90rem;
+  height: 22.125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: auto;
+  gap: 40px;
+  margin-top: 50px;
+  border-radius: 8px;
+  background-color: grey;
+}
+
+.app-description {
+  width: 90rem;
+  height: 616px;
+  text-align: left;
+}
+
+.installed {
+  background-color: grey;
+}
+
+.desc {
+  font-size: 2rem;
+}

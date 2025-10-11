@@ -1,7 +1,7 @@
 import React from "react";
 import "./hero.css";
 import appsList from "../data.json";
-import { NavLink } from "react-router";
+import { NavLink, Link } from "react-router";
 import playIcon from "/playstore.png";
 import appStoreIcon from "/appstore.png";
 import heroImg from "/hero.png";
@@ -80,34 +80,45 @@ const Hero = () => {
             Explore All Trending Apps on the Market developed by us
           </p>
         </div>
+
         <div className="trending-gallery">
           {appsList.slice(0, 8).map((app) => (
-            <div className="trending-card" key={app.id}>
-              <div className="card-img">
-                <img className="app-img" src={app.image} alt={app.title} />
-              </div>
-              <p className="card-title">
-                {app.title} : {app.companyName}
-              </p>
-              <div className="card-stats">
-                <div className="card-downloads">
-                  <img src={dlico} className="card-stat-icon" alt="downloads" />
-                  <p>
-                    {app.downloads >= 1000000
-                      ? `${(app.downloads / 1000000).toFixed(1)}M`
-                      : `${(app.downloads / 1000).toFixed(1)}K`}
-                  </p>
+            <Link
+              to={`/app/${app.id}`}
+              key={app.id}
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <div className="trending-card">
+                <div className="card-img">
+                  <img className="app-img" src={app.image} alt={app.title} />
                 </div>
-                <div className="card-rating">
-                  <img
-                    src={ratingico}
-                    className="card-stat-icon"
-                    alt="rating"
-                  />
-                  <p>{app.ratingAvg.toFixed(1)}</p>
+                <p className="card-title">
+                  {app.title} : {app.companyName}
+                </p>
+                <div className="card-stats">
+                  <div className="card-downloads">
+                    <img
+                      src={dlico}
+                      className="card-stat-icon"
+                      alt="downloads"
+                    />
+                    <p>
+                      {app.downloads >= 1000000
+                        ? `${(app.downloads / 1000000).toFixed(1)}M`
+                        : `${(app.downloads / 1000).toFixed(1)}K`}
+                    </p>
+                  </div>
+                  <div className="card-rating">
+                    <img
+                      src={ratingico}
+                      className="card-stat-icon"
+                      alt="rating"
+                    />
+                    <p>{app.ratingAvg.toFixed(1)}</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
