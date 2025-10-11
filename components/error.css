@@ -1,0 +1,20 @@
+#error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.error-title {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.error-subtitle {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  font-weight: 300;
+}

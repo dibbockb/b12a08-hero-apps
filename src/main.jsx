@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import All from "../components/allapps.jsx";
+import Error from "../components/error.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router";
 
 const router = createBrowserRouter([
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
     path: "/all",
     element: <All />,
   },
+  { path: "/error", element: <Error></Error> },
 ]);
 
 createRoot(document.getElementById("root")).render(

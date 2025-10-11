@@ -1,19 +1,30 @@
 import React from "react";
 import "./navbar.css";
+import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
     <>
       <div id="navbar-container">
-        <div className="navbar-left">
-          <img className="navbar-logo" src="../src/assets/logo.png" alt="" />
+        <NavLink
+          to={"/"}
+          className="navbar-left"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
+          <img className="navbar-logo" src="src\assets\logo.png" alt="" />
           <p className="navbar-text">HERO.IO</p>
-        </div>
+        </NavLink>
 
         <div className="navbar-links">
-          <p className="navbar-link">Home</p>
-          <p className="navbar-link">Apps</p>
-          <p className="navbar-link">Installation</p>
+          <NavLink to={"/"} className="navbar-link">
+            Home
+          </NavLink>
+          <NavLink to={"/all"} className="navbar-link">
+            Apps
+          </NavLink>
+          <NavLink to={"/installed"} className="navbar-link">
+            Installation
+          </NavLink>
         </div>
 
         <a
@@ -21,7 +32,7 @@ const Navbar = () => {
           href="https://github.com/dibbockb"
           className="navbar-button"
         >
-          <img src="../src/assets/github.png" className="nav-git-logo" />
+          <img src="src\assets\github.png" className="nav-git-logo" />
           Contribute
         </a>
       </div>

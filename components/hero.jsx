@@ -31,7 +31,7 @@ const Hero = () => {
             className="hero-playStore-button"
           >
             <img
-              src="../src/assets/playStore.png"
+              src="src\assets\playStore.png"
               className="hero-playStore-logo"
             />
             Google Play
@@ -41,15 +41,12 @@ const Hero = () => {
             target="new"
             className="hero-appStore-button"
           >
-            <img
-              src="../src/assets/appStore.png"
-              className="hero-appStore-logo"
-            />
+            <img src="src\assets\appStore.png" className="hero-appStore-logo" />
             App Store
           </a>
         </div>
 
-        <img src="../src/assets/hero.png" alt="" />
+        <img src="src\assets\hero.png" alt="" />
       </div>
 
       <div id="hero-stats-container">
@@ -81,7 +78,6 @@ const Hero = () => {
             Explore All Trending Apps on the Market developed by us
           </p>
         </div>
-
         <div className="trending-gallery">
           {appsList.slice(0, 8).map((app) => (
             <div className="trending-card" key={app.id}>
@@ -117,7 +113,11 @@ const Hero = () => {
           ))}
         </div>
 
-        <NavLink to="/all" className={"navbar-button allappsbutton"}>
+        <NavLink
+          to="/all"
+          className={"navbar-button allappsbutton"}
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
           All Apps
         </NavLink>
       </div>

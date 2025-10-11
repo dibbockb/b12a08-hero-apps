@@ -46,7 +46,7 @@ const All = () => {
                 <div className="card-stats">
                   <div className="card-downloads">
                     <img
-                      src="../src/assets/card-dl.svg"
+                      src="src\assets\card-dl.svg"
                       className="card-stat-icon"
                       alt="downloads"
                     />
@@ -58,7 +58,7 @@ const All = () => {
                   </div>
                   <div className="card-rating">
                     <img
-                      src="../src/assets/card-rating.svg"
+                      src="src\assets\card-rating.svg"
                       className="card-stat-icon"
                       alt="rating"
                     />
