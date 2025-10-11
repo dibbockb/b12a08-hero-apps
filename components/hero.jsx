@@ -1,6 +1,7 @@
 import React from "react";
 import "./hero.css";
 import appsList from "../data.json";
+import { NavLink } from "react-router";
 
 const Hero = () => {
   return (
@@ -115,6 +116,10 @@ const Hero = () => {
             </div>
           ))}
         </div>
+
+        <NavLink to="/all" className={"navbar-button allappsbutton"}>
+          All Apps
+        </NavLink>
       </div>
     </>
   );

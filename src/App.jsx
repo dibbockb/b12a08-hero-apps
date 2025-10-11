@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
+import All from "../components/allapps.jsx";
 import Footer from "../components/footer";
 
 function App() {

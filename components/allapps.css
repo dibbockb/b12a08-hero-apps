@@ -1,0 +1,64 @@
+.allapps-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.allapps-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  margin-bottom: 100px;
+}
+
+.trending-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s ease-in-out;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.allapps-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.allapps-subtitle {
+  font-weight: 400;
+  color: #627382;
+}
+
+.allapps-etc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.total-apps-stat {
+  font-size: 24px;
+  color: #001931;
+  font-weight: 500;
+}
+
+.apps-search {
+  border-radius: 4px;
+  border: 2px solid gray;
+  resize: none;
+  text-align: left;
+  width: 25rem;
+  height: 2.75rem;
+  padding-left: 10px;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+
+.apps-search::placeholder {
+  color: grey;
+}

@@ -179,13 +179,13 @@
 .card-stat-icon {
   height: 25px;
   width: 25px;
+  filter: opacity(50%);
 }
 
 .card-stats {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
   padding-top: 10px;
 }
 
@@ -194,6 +194,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4px;
+  gap: 0px;
   font-weight: 500;
+  border-radius: 4px;
+}
+
+.card-rating {
+  background-color: #fff0e1;
+  color: #ff8811;
+  width: 60px;
+}
+.card-downloads {
+  background-color: #f1f5e8;
+  color: #00d390;
+  width: 80px;
+}
+
+.allappsbutton {
+  justify-self: center;
 }
