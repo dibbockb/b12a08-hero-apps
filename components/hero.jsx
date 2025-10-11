@@ -2,6 +2,11 @@ import React from "react";
 import "./hero.css";
 import appsList from "../data.json";
 import { NavLink } from "react-router";
+import playIcon from "/playstore.png";
+import appStoreIcon from "/appstore.png";
+import heroImg from "/hero.png";
+import dlico from "/icon-downloads.png";
+import ratingico from "/icon-ratings.png";
 
 const Hero = () => {
   return (
@@ -30,10 +35,7 @@ const Hero = () => {
             target="new"
             className="hero-playStore-button"
           >
-            <img
-              src="src\assets\playStore.png"
-              className="hero-playStore-logo"
-            />
+            <img src={playIcon} className="hero-playStore-logo" />
             Google Play
           </a>
           <a
@@ -41,12 +43,12 @@ const Hero = () => {
             target="new"
             className="hero-appStore-button"
           >
-            <img src="src\assets\appStore.png" className="hero-appStore-logo" />
+            <img src={appStoreIcon} className="hero-appStore-logo" />
             App Store
           </a>
         </div>
 
-        <img src="src\assets\hero.png" alt="" />
+        <img src={heroImg} alt="" />
       </div>
 
       <div id="hero-stats-container">
@@ -89,11 +91,7 @@ const Hero = () => {
               </p>
               <div className="card-stats">
                 <div className="card-downloads">
-                  <img
-                    src="../src/assets/card-dl.svg"
-                    className="card-stat-icon"
-                    alt="downloads"
-                  />
+                  <img src={dlico} className="card-stat-icon" alt="downloads" />
                   <p>
                     {app.downloads >= 1000000
                       ? `${(app.downloads / 1000000).toFixed(1)}M`
@@ -102,7 +100,7 @@ const Hero = () => {
                 </div>
                 <div className="card-rating">
                   <img
-                    src="../src/assets/card-rating.svg"
+                    src={ratingico}
                     className="card-stat-icon"
                     alt="rating"
                   />

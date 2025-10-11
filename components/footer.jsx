@@ -1,5 +1,7 @@
 import React from "react";
 import "./footer.css";
+import navLogo from "/logo.png";
+import footerlogos from "/footer-logos.png";
 
 const Footer = () => {
   return (
@@ -8,7 +10,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-left">
             <div className="navbar-left">
-              <img className="navbar-logo" src="src\assets\logo.png" alt="" />
+              <img className="navbar-logo" src={navLogo} alt="" />
               <p className="footer-title">HERO.IO</p>
             </div>
             <p className="footer-subtitle">
@@ -20,11 +22,7 @@ const Footer = () => {
 
           <div className="footer-links">
             <p className="footer-link-title">Social Links</p>
-            <img
-              className="footer-logo"
-              src="src\assets\footer-logos.png"
-              alt=""
-            />
+            <img className="footer-logo" src={footerlogos} alt="" />
           </div>
         </div>
       </div>

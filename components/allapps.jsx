@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./allapps.css";
 import { NavLink } from "react-router";
+import dlico from "/icon-downloads.png";
+import ratingico from "/icon-ratings.png";
+import notFoundIco from "/notfound.png";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
@@ -46,7 +49,7 @@ const All = () => {
                 <div className="card-stats">
                   <div className="card-downloads">
                     <img
-                      src="src\assets\card-dl.svg"
+                      src={dlico}
                       className="card-stat-icon"
                       alt="downloads"
                     />
@@ -58,7 +61,7 @@ const All = () => {
                   </div>
                   <div className="card-rating">
                     <img
-                      src="src\assets\card-rating.svg"
+                      src={ratingico}
                       className="card-stat-icon"
                       alt="rating"
                     />
@@ -70,9 +73,9 @@ const All = () => {
           ) : (
             <div className="no-results">
               <img
-                src="../src/assets/App-Error.png"
+                src={notFoundIco}
                 alt=""
-                className="no-search-result-img"
+                className={"no-search-result-img"}
               />
               <p className="no-app-title">OPPS!! APP NOT FOUND</p>
               <p className="no-app-subtitle">

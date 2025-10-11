@@ -1,6 +1,8 @@
 import React from "react";
 import "./navbar.css";
 import { NavLink } from "react-router";
+import navLogo from "/logo.png";
+import gitLogo from "/github.png";
 
 const Navbar = () => {
   return (
@@ -11,7 +13,7 @@ const Navbar = () => {
           className="navbar-left"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
-          <img className="navbar-logo" src="src\assets\logo.png" alt="" />
+          <img className="navbar-logo" src={navLogo} alt="" />
           <p className="navbar-text">HERO.IO</p>
         </NavLink>
 
@@ -32,7 +34,7 @@ const Navbar = () => {
           href="https://github.com/dibbockb"
           className="navbar-button"
         >
-          <img src="src\assets\github.png" className="nav-git-logo" />
+          <img src={gitLogo} className="nav-git-logo" />
           Contribute
         </a>
       </div>

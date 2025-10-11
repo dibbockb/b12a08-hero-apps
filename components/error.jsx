@@ -3,13 +3,14 @@ import "./error.css";
 import { NavLink } from "react-router";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import errImg from "/err.png";
 
 const Error = () => {
   return (
     <>
       <Navbar></Navbar>
       <div id="error-container">
-        <img src="../src/assets/error-404.png" alt="" className="error-img" />
+        <img src={errImg} alt="" className="error-img" />
         <p className="error-title">Oops, page not found!</p>
         <p className="error-subtitle">
           The page you are looking for is not available.
