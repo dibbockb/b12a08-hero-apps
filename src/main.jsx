@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     path: "/all",
     element: <All />,
   },
-  { path: "/error", element: <Error></Error> },
+  { path: "/*", element: <Error></Error> },
 ]);
 
 createRoot(document.getElementById("root")).render(
